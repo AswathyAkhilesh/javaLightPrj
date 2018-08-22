@@ -5,9 +5,9 @@ public static void main(String[] args)
 {
 int num1, num2;
 Scanner input = new Scanner(System.in);
-System.out.println("Enter Num 1: ");
+System.out.println("Enter first number: ");
 num1 = input.nextInt();
-System.out.println("Enter Num 2: ");
+System.out.println("Enter second  number: ");
 num2 = input.nextInt();
 System.out.println("Answer " + (num1+num2));
 }
